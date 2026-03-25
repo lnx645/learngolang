@@ -6,6 +6,7 @@ import (
 	"d03x.dev/server"
 	"example.com/greetings"
 	"example.com/messages"
+	"rsc.io/quote"
 )
 
 func main() {
@@ -15,4 +16,8 @@ func main() {
 	fmt.Println(messages.GetHello("Firman", "Dany"))
 	server.RunServer()
 	fmt.Println(messages.GetHelloPrintDirection())
+
+	//panggil quote dari package rsc.io/quote
+
+	fmt.Println(quote.Go())
 }
