@@ -1,5 +1,0 @@
-installasi -> selesai
-Belajar buat module -> selesai
-Belajar panggil module dari module lain -> selesai
-
-[todo]
